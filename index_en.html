@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Gregorian notes</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/script.js"></script>
+	<script src="js/jquery.PrintArea.js"></script>
+<!--    <script src="https://jspm.io/system@0.19.js"></script> -->
+</head>
+<body>
+    <script>
+	    if (!(navigator.userAgent.toLowerCase().indexOf('firefox') > -1)) {
+		    alert('The application works correctly only under Firefox');
+		}
+	</script>
+    <a href="javascript:;" id="addElement">
+        <div class="addElementChar" style="float:left;">+</div>
+	</a>
+    <a href="javascript:;" id="moveLeft">
+        <div class="addElementChar" style="float:left; background-color:blue;">&lt;</div>
+	</a>
+    <a href="javascript:;" id="moveRight">
+        <div class="addElementChar" style="float:left; background-color:blue;">&gt;</div>
+	</a>
+	
+	<a href="index_de.html">
+        <div class="elementBox">DE</div>
+	</a>
+	<a href="index_en.html">
+        <div class="elementBox">EN</div>
+	</a>
+	<a href="index.html">
+        <div class="elementBox">PL</div>
+	</a>
+	
+	<div style="clear:both"></div>
+	<div id="addContainer">
+	    <div>=</div> 
+		<div>-</div>
+		<div>2d</div>
+		<div>1p</div> 
+		<div>1v</div>
+		<div>1n</div>
+		<div>12P</div>
+		<div>21C</div>
+		<div>3ph</div>
+		<div>3pH</div>
+		<div>3pI</div>
+		<div>4pi</div>
+		<div>+</div>
+		<div>;</div>
+		<div>|</div>
+		<div>||</div>
+		<div>1q</div>
+		<div>31R</div>
+		<div>5f</div>
+		<div>1b</div>
+		<div>1a</div>
+		<div>1u</div>
+		<div>35x</div>
+		<div>35X</div>
+		<div>1l</div>
+		<div>1L</div>
+		<div>1k</div>
+		<div>1K</div>
+		<div>1w</div>
+		<div>1s</div>
+		<div>,</div>
+	</div>
+	<div style="clear:both;"></div>
+    <div id="container">
+        <div class="gregorian">
+		    <div>=</div>
+	        <div class="active">7d</div>
+			<div>=</div>
+			<div>=</div>
+			<div>2p</div>
+			<div>=</div>
+			<div>3v</div>
+			<div>=</div>
+			<div>5n</div>
+			<div>2n</div>
+			<div>=</div>
+	    </div>
+		<div class="description">
+		    <input type="text" class="text">
+		</div>
+	</div>
+    <a href="javascript:;" id="addNote">
+	    <div id="addNotes">+</div>
+	</a>
+	<div style="clear:both;"></div>
+	<div id="buttons">
+<!--	    <input type="text" id="readName" class="fileName"> <button id="read" class="fileButton">Wczytaj</button>
+		<br> -->
+		<input type="text" id="saveName" class="fileName"> <button id="save" class="fileButton">Save</button>
+		<br>
+    	<input type="file" id="fileinput">
+		<br>
+		<button id="print" class="fileButton">Print</button>
+	</div>
+	<div style="clear:both;"></div>
+	<div style="width:100%;text-align:center;font-family:Arial;font-size:9pt;">Copyright 2016 way2net.pl</div>
+</body>
+</html>

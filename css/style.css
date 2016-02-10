@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Caeciliae;
+    src: url(../fonts/Caeciliae-Regular.ttf);
+}
+
+.gregorian {
+	font-family: Caeciliae;
+	font-size: 48pt;
+	color: black;
+}
+.gregorian > div {
+	float: left;
+	cursor: pointer;
+	cursor: hand;
+}
+#container {
+	width: 990px;
+	margin: 0px auto;
+}
+.active {
+	border: 1px solid blue;
+}
+#addElement {
+	text-decoration: none;
+}
+.addElementChar {
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	border: 1px solid #000000;
+	padding: 1px 6px;
+	background-color: red;
+	width: 12px;
+	height: 20px;
+}
+#addContainer {
+	font-family: Caeciliae;
+	font-size: 48pt;
+	color: black;
+	width: 536px;
+	border: 1px solid red;
+	background-color: yellow;
+	display: none;
+	position: fixed;
+	margin-left: 512px;
+}
+#addContainer > div {
+	float: left;
+	margin-left: 8px;
+	cursor: pointer;
+	cursor: hand;
+}
+#buttons {
+	float: right;
+	margin-right: 32px;
+	font-family: Arial;
+	font-size: 18pt;
+}
+.fileName {
+	width: 64px;
+	text-align: center;
+}
+.fileButton {
+	width: 64px;
+	text-align: center;
+}
+.description {
+	width: 100%;
+}
+.text {
+	width: 100%;
+	font-family: Arial;
+	font-size: 16pt;
+	font-style: italic;
+}
+#addNotes {
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	border: 1px solid #000000;
+	padding: 1px 6px;
+	background-color: green;
+	width: 12px;
+	height: 20px;
+}
+.elementBox {
+	font-family: Arial;
+	font-size: 10px;
+	color: black;
+	border: 1px solid #000000;
+	padding-top: 7px;
+    padding-left: 4px;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	float: right;
+}
